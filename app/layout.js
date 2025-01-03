@@ -1,4 +1,7 @@
 import "./globals.css";
+import { Providers } from "@/Redux/provider";
+import Wrapper from "@/components/layout/wrapper/wrapper.component";
+
 import { Poppins } from "next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
@@ -16,7 +19,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Providers>
+          <Wrapper>{children}</Wrapper>
+        </Providers>
+      </body>
     </html>
   );
 }
