@@ -1,0 +1,6 @@
+.loaderContainer {
+  height: 100vh;
+}
+.spinner {
+  color: var(--primary-color-D);
+}
