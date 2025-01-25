@@ -1,0 +1,61 @@
+.footerBootom {
+  padding: 1.75rem 0;
+  position: relative;
+}
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  position: relative;
+}
+.follow::after,
+.follow::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  background-color: #faf9f6;
+  top: 50%;
+}
+.follow::after {
+  right: 0;
+  margin-right: 10%;
+  width: calc(40% - 75px);
+}
+.follow::before {
+  left: 0;
+  margin-left: 10%;
+  width: calc(40% - 75px);
+}
+
+.footerBootom p {
+  color: #fff;
+  text-align: center;
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.socialLink {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: var(--tertiary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.socialLink svg {
+  font-size: 1.25rem;
+}
+.copyright {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+}

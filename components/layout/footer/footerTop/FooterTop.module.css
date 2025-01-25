@@ -1,0 +1,72 @@
+.row {
+  justify-content: center;
+}
+.appTitle {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.contactWays {
+  margin-top: 0.5rem;
+  /* margin-left: 1rem; */
+}
+.contactDetail {
+  color: #faf9f6;
+}
+
+.sectionTitle {
+  padding: 0.75rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.contactIcon {
+  font-size: 1.2rem;
+  display: flex;
+}
+.contactDetail {
+  font-size: 0.75rem;
+}
+.link {
+  color: #faf9f6;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  font-size: 0.75rem;
+}
+.link:hover {
+  color: var(--primary-color-D);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 2rem;
+}
+.categories a {
+  width: fit-content;
+  color: #7c7d94 !important;
+}
+.mobileApp {
+  display: flex;
+  gap: 10px;
+}
+.mobileAppItem {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--primary-color-ML);
+  color: var(--text-color);
+  border-radius: 10px;
+  align-items: center;
+}
+.appsContent {
+  display: flex;
+  flex-direction: column;
+}
+.appsContent span:last-of-type {
+  font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
