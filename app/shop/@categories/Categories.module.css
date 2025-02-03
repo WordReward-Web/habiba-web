@@ -1,0 +1,5 @@
+.categoriesContainer {
+  background-color: var(--primary-color-L);
+  border-radius: 8px;
+  height: 100%;
+}

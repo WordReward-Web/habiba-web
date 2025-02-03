@@ -1,0 +1,35 @@
+.sideCanvas {
+  display: none;
+}
+.openFilterBtn {
+  background-color: var(--primary-color-D) !important;
+  border: 1px solid var(--primary-color-D) !important;
+  border-radius: 8px;
+  position: relative;
+  color: #ffffff;
+  height: 42px;
+}
+.openFilterBtn:hover,
+.openFilterBtn:focus {
+  background-color: var(--primary-color-D) !important;
+  border: 1px solid var(--primary-color-D) !important;
+  color: #fff !important;
+}
+.sideOffcanvas {
+  background-color: #fff !important;
+}
+.FilterIcon {
+  margin-inline-end: 0.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .sideCanvas {
+    display: block;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .sideCanvas {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+}

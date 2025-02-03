@@ -27,13 +27,13 @@
   font-size: 0.75rem;
 }
 .link {
-  color: #faf9f6;
+  color: #faf9f6 !important;
   transition: all 0.3s ease-in-out;
   display: block;
   font-size: 0.75rem;
 }
 .link:hover {
-  color: var(--primary-color-D);
+  color: var(--primary-color-D) !important;
 }
 
 .categories {

@@ -1,6 +1,5 @@
-export default async function Shop() {
-  await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate 2s delay
-
+"use client";
+const CategoriesError = () => {
   return (
     <div
       style={{
@@ -10,7 +9,9 @@ export default async function Shop() {
         alignItems: "center",
       }}
     >
-      Shop page
+      CategoriesError ...
     </div>
   );
-}
+};
+
+export default CategoriesError;

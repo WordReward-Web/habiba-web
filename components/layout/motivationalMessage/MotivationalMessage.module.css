@@ -1,0 +1,14 @@
+.motivationalMS {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
+  background-color: var(--primary-color-D);
+  color: #fff;
+  font-style: italic;
+}
+@media only screen and (max-width: 767px) {
+  .motivationalMS {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}

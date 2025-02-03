@@ -1,0 +1,10 @@
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 375px) {
+  .productHeader {
+    /* flex-direction: column; */
+  }
+}

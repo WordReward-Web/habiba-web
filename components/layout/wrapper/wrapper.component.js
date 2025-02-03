@@ -1,5 +1,6 @@
 import FooterBottom from "../footer/footerBottom/footerBottom.component";
 import FooterTop from "../footer/footerTop/footerTop.component";
+import MotivationalMessage from "../motivationalMessage/motivationalMessage.component";
 import NavbarComp from "../navbar/navbar.component";
 import styles from "./wrapper.module.css";
 
@@ -10,9 +11,7 @@ const Wrapper = ({ children }) => {
         <NavbarComp />
         {children}
         <footer className={styles.footerContainer}>
-          <div className={styles.motivationalMS}>
-            “Fresh, sustainable, and wholesome – every step of the way.”
-          </div>
+          <MotivationalMessage />
           <div className={styles.footer}>
             <FooterTop />
             <FooterBottom />

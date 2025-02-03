@@ -1,0 +1,36 @@
+.searchBar i {
+  position: absolute;
+
+  padding-inline-end: 1rem;
+  color: #000;
+  z-index: 9;
+}
+.searchInput {
+  border-radius: 8px !important;
+}
+.searchInput,
+.searchInput:focus {
+  border-color: var(--light-color);
+}
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+.resetSearchBar {
+  cursor: pointer;
+}
+.searchBar i span {
+  border-width: 0.15em;
+}
+.customBorder {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* dynamic clasess*/
+.right {
+  right: 0;
+}
+.left {
+  left: 0;
+}
